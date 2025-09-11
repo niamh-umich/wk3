@@ -1,0 +1,93 @@
+p {
+    padding-top: 15px;
+}
+
+a {
+    font-size: 16px;
+    color: #B21F50;
+    text-decoration: underline wavy;
+}
+
+*:focus {
+    border: 6px #417243 dashed;
+    outline: none;
+}
+
+h1 {
+    text-align: center;
+    line-height: 2;
+    font-family: "Syncopate", sans-serif;
+}
+
+body {
+    background-color: #DDDDDD;
+    background-image: url("../images/pigeon-background.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+table {
+    border-spacing: 0px;
+    border-right: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    text-align: center;
+    border-bottom: 2px black solid;
+    padding: 10px;
+}
+
+th[scope="col"] {
+    min-width: 125px;
+    padding: 10px;
+    color: white;
+    background: #7e0820;
+    text-align: center;
+}
+
+th[scope="col"]::before {
+    min-width: 125px;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #7e0820;
+    text-align: center;
+}
+
+th[scope="col"]:hover {
+    min-width: 125px;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #7e0820;
+    text-align: center;
+    opacity: 0.25;
+}
+
+th[scope="row"] {
+    border-bottom: 2px solid black; 
+    border-right: 2px solid black ; 
+} 
+
+tbody tr:hover {
+    background-color: #7e082040;
+}
+
+thead tr:first-child th:first-child {
+    border-top-left-radius: 20px;
+}
+
+thead tr:first-child th:last-child {
+    border-top-right-radius: 20px;
+}
+
+tbody tr:last-child th:first-child {
+    border-bottom-left-radius: 20px;
+}
+
+tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 20px;
+}
